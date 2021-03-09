@@ -1,19 +1,29 @@
 #main{
     font-family: Arial, Helvetica, sans-serif;
 }
+#resume{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+}
 #title{
     display: flex;
+    text-align: left;
 }
 #image{
     display: flex;
     width: 100px;
+    border-radius: 100%;
 }
-#img-caption{
-    display: flex;
+#tribute-info{
+    background-color: antiquewhite;
 }
 .year{
     font-weight: bold;
 }
 .image{
     width:200px;
+}
+#nextSteps{
+    background-color: red;
 }
