@@ -45,5 +45,6 @@ h1{
 .mission-vision-values{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
