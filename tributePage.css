@@ -7,7 +7,7 @@ body{
     margin:0;
     padding:0;
 }
-#overreview{
+.overreview{
     width: 100%;
     min-width: 1000px;
     display: flex;
@@ -99,4 +99,34 @@ h1{
     text-align: justify;
     margin: 10px 30px;
 }
+.mvv ul{
+    text-align: justify;
+    margin: 10px 30px;
+}
+.job-experience{
+    width: 100%;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+.job-experience-main{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.job-experience ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
 
+    display: flex;
+    flex-direction: row;
+}
